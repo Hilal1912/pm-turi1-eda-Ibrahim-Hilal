@@ -1,28 +1,30 @@
-# Repository Praktikum Pembelajaran Mesin (INF62325)
+# Repository Praktikum Pembelajaran Mesin - TuRi 1 (EDA)
 
-**Nama** : Ibrahim Hilal  
-**NIM**  : 2488010030
-**Kelas**: Informatika - C
-
----
-
-## Daftar Berkas Praktikum
-
-### 1. Persiapan Awal & Cek Versi Pustaka
-- **Nama Berkas:** `PM_TuRi1_EDA_Ibrahim_Hilal.ipynb`
-- **Deskripsi:** Pengecekan dan verifikasi lingkungan kerja Google Colab serta pencatatan versi pustaka Python utama (`scikit-learn`, `pandas`, `numpy`, `matplotlib`).
-
-### 2. Modul Demo & Latihan Pertemuan 2 (Jenis Pembelajaran & Alur Kerja ML)
-- **Nama Berkas:** `PM_P2_Ibrahim_Hilal.ipynb`
-- **Deskripsi:** 
-  - Mengenali struktur data (instans, fitur, dan label).
-  - Membedakan tugas **Klasifikasi** dan **Regresi** berdasarkan tipe data label.
-  - Mempraktikkan pembagian data latih (*training*) dan data uji (*testing*) menggunakan `train_test_split`.
-  - Mengerjakan latihan mandiri (DataFrame siswa, pembagian data $test\_size=0.2$, dan studi kasus prediksi pengunjung toko).
-  - Mengisi jawaban refleksi alur kerja ML.
+**Identitas Mahasiswa:**
+- **Nama:** Ibrahim Hilal
+- **NIM:** 2488010030
+- **Kelas:** Informatika - C
+- **Program Studi:** S1 Informatika, UIN Siber Syekh Nurjati Cirebon
 
 ---
 
-## Temuan Utama & Catatan
-- **Klasifikasi vs Regresi:** Kasus prediksi label numerik kontinu (seperti harga rumah atau jumlah pengunjung toko) menggunakan teknik Regresi, sedangkan label berupa kategori/diskrit (seperti status "Lulus/Tidak") menggunakan Klasifikasi.
-- **Data Latih & Uji:** Pembagian data uji disembunyikan saat proses pelatihan untuk menguji kemampuan generalisasi model terhadap data baru secara objektif.
+## 📁 Daftar Berkas Praktikum
+
+| Pertemuan | Nama Berkas | Topik Praktikum | Deskripsi |
+| :---: | :--- | :--- | :--- |
+| **P1** | `Percobaam_Google_Collab.ipynb` | Pengenalan Lingkungan | Pengenalan Google Colab & GitHub |
+| **P2** | `PM_P2_Ibrahim_Hilal_2488010030.ipynb` | Dasar Machine Learning | Supervised vs Unsupervised, Regresi & Klasifikasi |
+| **P3** | `PM_P3_Ibrahim_Hilal_2488010030.ipynb` | Exploratory Data Analysis (EDA) | Visualisasi Dataset Iris & Tips (TuRi 1) |
+
+---
+
+## 📌 Ringkasan Temuan EDA (Pertemuan 3)
+- **Dataset Iris:** Fitur `petal_length` dan `petal_width` menunjukkan korelasi positif yang sangat kuat serta batas pemisahan kelas spesies yang paling jelas.
+- **Dataset Tips:** Variabel `total_bill` dan `tip` memiliki korelasi positif bernilai $r \approx 0.68$. Transaksi pada waktu *Dinner* lebih mendominasi besaran tagihan dan nilai tip.
+
+---
+
+## 🛠️ Teknologi & Tools
+- **Bahasa Pemrograman:** Python
+- **Pustaka (Libraries):** Pandas, NumPy, Matplotlib, Seaborn
+- **Environment:** Google Colab & GitHub
